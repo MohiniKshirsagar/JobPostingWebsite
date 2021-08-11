@@ -1,0 +1,122 @@
+* {
+	color: black;
+}
+
+html, body {
+	height: 100%;
+}
+
+#navbar li a {
+	color: #eee;
+}
+
+#navbar li:hover a {
+	color: #fff;
+	text-decoration: underline; 
+}
+
+.page-container {
+	padding-top: 45px;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+.footer-container {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+	text-align: center;
+    
+    background-color: #33408b;
+}
+
+header {
+	box-shadow: 0px 5px 5px #6c757d36;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+}
+
+.apply-button {
+	background-color: #001ed3;
+	color: #333;
+	border-radius: 1px;
+}
+.apply-button:hover {
+	background-color: #ffc107;
+}
+
+.job {
+	box-shadow: 5px -5px 10px 0px #dae0e5;
+}
+
+.card-body {
+	border-top: 1px solid #ddd;
+}
+
+.card-title, .salary {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.salary {
+	margin: 0;
+}
+
+.company {
+	text-decoration: underline;
+}
+
+.btn-checkout span, .btn-checkout .fa-remove{
+	color: white
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
